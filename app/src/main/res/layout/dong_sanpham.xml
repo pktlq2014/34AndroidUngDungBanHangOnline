@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/cardView"
+        app:cardCornerRadius="4dp"
+        >
+        <FrameLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            >
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="top|right"
+                android:src="@mipmap/new1"
+                />
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <ImageView
+                    android:layout_height="100dp"
+                    android:layout_width="100dp"
+                    android:layout_margin="5dp"
+                    android:id="@+id/imageViewSanPham"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tên Sản Phẩm"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textColor="#101010"
+                    android:id="@+id/textViewTenSanPham"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:text="Giá Sản Phẩm"
+                    android:textColor="#f20"
+                    android:id="@+id/textViewGiaSanPham"
+                    />
+            </LinearLayout>
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

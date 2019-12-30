@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+        android:id="@+id/trangChu"
+        android:title="@string/trangChu"
+        android:icon="@mipmap/home1"
+        />
+
+    <item
+        android:id="@+id/lienHe"
+        android:title="@string/lienHe"
+        android:icon="@drawable/baseline_screen_share_black_18dp"
+        />
+
+    <item
+        android:id="@+id/thongTin"
+        android:title="@string/thongTin"
+        android:icon="@mipmap/thongtin"
+        />
+    <item
+        android:title="@string/sanPham"
+        >
+        <menu>
+            <item
+                android:id="@+id/dienThoai"
+                android:title="@string/dienThoai"
+                android:icon="@mipmap/phone"
+                />
+
+            <item
+                android:id="@+id/lapTop"
+                android:title="@string/lapTop"
+                android:icon="@mipmap/laptop"
+                />
+        </menu>
+    </item>
+</menu>

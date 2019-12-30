@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">34AndroidUngDungBanHangOnline</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="Map">Map</string>
+    <string name="title_activity_thong_tin_lien_he1">Map</string>
+
+    <string name="sanPhamMoiNhat">New Product</string>
+    <string name="trangChu">Home Page</string>
+    <string name="lienHe">Contact</string>
+    <string name="thongTin">Information</string>
+    <string name="dienThoai">Cellphone</string>
+    <string name="lapTop">LapTop</string>
+    <string name="chiTietSanPham">Product Details</string>
+    <string name="moTaChiTietSanPham">Product Details Description</string>
+    <string name="themGioHang">ADD CART</string>
+    <string name="gioHang">Cart</string>
+    <string name="tongTien">Total Money : </string>
+    <string name="thanhToanGioHang">CART PAYMENT</string>
+    <string name="tiepTucMuaHang">Continue Shopping</string>
+    <string name="gioHangDangTrong">Cart Is Empty</string>
+    <string name="thongTinKhachHang">Customer Information</string>
+    <string name="nhapTenKhachHang">Input Customer Name</string>
+    <string name="nhapSoDienThoai">Input Customer Phone</string>
+    <string name="nhapEmail">Input Customer Mail</string>
+    <string name="banQuyenThuocNguyenVanTy">Copyright By Nguyễn Văn Tỷ</string>
+    <string name="xacNhan">Confirm</string>
+    <string name="troVe">ComeBack</string>
+    <string name="sanPham">Product</string>
+
+
+    <string name="email">Input Email Account</string>
+    <string name="passWord">Input Password</string>
+    <string name="loGin">LOGIN</string>
+    <string name="reGisTer">Register</string>
+    <string name="nhoDangNhap">Keep Logged In</string>
+    <string name="cusToMerName">Input Customer Name</string>
+    <string name="emailAddress">Input Email Address</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="inputCustomerAddress">Input Customer Address</string>
+    <string name="phuongThucThanhToan">Payment Methods</string>
+    <string name="taiNha">At Home</string>
+    <string name="trucTuyen">Online</string>
+    <string name="dangKy">Register</string>
+</resources>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.drawerlayout.widget.DrawerLayout android:layout_height="match_parent"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:id="@+id/drawer_layout"-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+<!--    <LinearLayout-->
+<!--        android:orientation="vertical"-->
+<!--        android:id="@+id/content_layout"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        >-->
+<!--        <androidx.appcompat.widget.Toolbar-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="?attr/actionBarSize"-->
+<!--            android:id="@+id/toolBar"-->
+<!--            android:background="@color/colorPrimary"-->
+<!--            >-->
+
+<!--        </androidx.appcompat.widget.Toolbar>-->
+<!--    </LinearLayout>-->
+
+<!--    <com.google.android.material.navigation.NavigationView-->
+<!--        xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_gravity="start"-->
+<!--        android:theme="@style/Theme.AppCompat.Light"-->
+<!--        android:id="@+id/navigation_view"-->
+<!--        app:menu="@menu/menu_demo"-->
+<!--        app:itemTextColor="#3F51B5"-->
+<!--        app:itemIconTint="#9C27B0"-->
+<!--        app:headerLayout="@layout/header_drawer_layout"-->
+<!--        >-->
+
+<!--    </com.google.android.material.navigation.NavigationView>-->
+<!--</androidx.drawerlayout.widget.DrawerLayout>-->
+
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.drawerlayout.widget.DrawerLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/drawer_layout"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/content_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                >
+                <androidx.appcompat.widget.Toolbar
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:id="@+id/toolBar"
+                    app:title="@string/trangChu"
+                    app:titleTextColor="#F43636"
+                    android:background="#3F51B5"
+                    >
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@mipmap/vn"
+                        android:id="@+id/imageViewVietNam"
+                        android:layout_marginLeft="50dp"
+                        />
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:id="@+id/imageViewHoaKy"
+                        android:src="@mipmap/english"
+                        android:layout_marginLeft="40dp"
+                        />
+                </androidx.appcompat.widget.Toolbar>
+            </LinearLayout>
+
+            <ViewFlipper
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/viewFlipper"
+                >
+            </ViewFlipper>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#3F51B5"
+                >
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/sanPhamMoiNhat"
+                    android:layout_margin="5dp"
+                    android:textColor="#F44336"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"
+                    />
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                </androidx.recyclerview.widget.RecyclerView>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <com.google.android.material.navigation.NavigationView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_gravity="start"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:id="@+id/navigation_view"
+            app:menu="@menu/menu_demo"
+            app:itemTextColor="#3F51B5"
+            app:itemIconTint="#9C27B0"
+            app:headerLayout="@layout/header_drawer_layout"
+            >
+            <ListView
+                android:id="@+id/listViewManHinhChinh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </com.google.android.material.navigation.NavigationView>
+    </androidx.drawerlayout.widget.DrawerLayout>
+</LinearLayout>

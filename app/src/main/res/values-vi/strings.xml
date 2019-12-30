@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">34AndroidUngDungBanHangOnline</string>
+    <string name="banQuyenThuocNguyenVanTy">Bản Quyền Thuộc Nguyễn Văn Tỷ</string>
+    <string name="chiTietSanPham">Chi Tiết Sản Phẩm</string>
+    <string name="dienThoai">Điện Thoại</string>
+    <string name="gioHang">Giỏ Hàng</string>
+    <string name="gioHangDangTrong">Giỏ Hàng Đang Trống</string>
+    <string name="lapTop">LapTop</string>
+    <string name="lienHe">Liên Hệ</string>
+    <string name="moTaChiTietSanPham">Mô Tả Chi Tiết Sản Phẩm</string>
+    <string name="nhapEmail">Nhập Mail Khách Hàng</string>
+    <string name="nhapSoDienThoai">Nhập Số Điện Thoại Khách Hàng</string>
+    <string name="nhapTenKhachHang">Nhập Tên Khách Hàng</string>
+    <string name="sanPham">Sản Phẩm</string>
+    <string name="sanPhamMoiNhat">Sản Phẩm Mới Nhất</string>
+    <string name="thanhToanGioHang">Thanh Toán Giỏ Hàng</string>
+    <string name="themGioHang">Thêm Giỏ Hàng</string>
+    <string name="thongTin">Thông Tin</string>
+    <string name="thongTinKhachHang">Thông Tin Khách Hàng</string>
+    <string name="tiepTucMuaHang">Tiếp Tục Mua Hàng</string>
+    <string name="tongTien">"Tổng Tiền : "</string>
+    <string name="trangChu">Trang Chủ</string>
+    <string name="troVe">Trở Lại</string>
+    <string name="xacNhan">Xác Nhận</string>
+    <string name="confirmPassword">Nhập Lại Mật Khẩu</string>
+    <string name="cusToMerName">Nhập Tên Khách Hàng</string>
+    <string name="dangKy">Đăng Ký</string>
+    <string name="email">Nhập Tài Khoản Email</string>
+    <string name="emailAddress">Nhập Địa Chỉ Email</string>
+    <string name="female">Nữ Giới</string>
+    <string name="inputCustomerAddress">Nhập Địa Chỉ Khách Hàng</string>
+    <string name="loGin">Đăng Nhập</string>
+    <string name="male">Nam Giới</string>
+    <string name="nhoDangNhap">Giữ Đăng Nhập</string>
+    <string name="passWord">Nhập Mật Khẩu</string>
+    <string name="phuongThucThanhToan">Phương Thức Thanh Toán</string>
+    <string name="reGisTer">Đăng Ký</string>
+    <string name="taiNha">Tại Nhà</string>
+    <string name="trucTuyen">Trực Tuyến</string>
+</resources>
